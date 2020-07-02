@@ -7,7 +7,7 @@
 }
 
 .card {
-    height: 410px;
+    height: 430px;
 }
 
 .card-img-top {
@@ -20,12 +20,16 @@
 }
 
 .btn {
-    border-top: 1px solid lightgrey;
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-radius: 0%;
     font-size: 14px;
     font-weight: 500;
+}
+
+.btn:hover {
+    background-color: rgb(121, 201, 255);
+    color:white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(68, 73, 150, 0.2), 0 6px 20px 0 rgba(50, 52, 75, 0.19);
 }
 
 h5 {
@@ -34,4 +38,10 @@ h5 {
 
 p {
     font-size: 13px;
+}
+
+.line {
+    border-bottom: 1px solid lightgrey;
+    margin-left:30%;
+    margin-right:30%
 }
